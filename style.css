@@ -104,3 +104,26 @@ h3 {
     cursor: not-allowed;
     transform: none;
 }
+
+
+/* FORMS */
+
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    width: 20rem;
+}
+
+input::placeholder {
+    color: #aaa;
+}
