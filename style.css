@@ -19,6 +19,7 @@ h1 {
     color: #56a5eb;
     font-size: 5.4rem;
     margin-bottom: 5rem;
+    text-align: center;
 }
 
 h1 > span {
