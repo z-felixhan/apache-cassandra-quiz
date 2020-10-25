@@ -32,3 +32,20 @@
 .incorrect {
     background-color: #dc3545;
 }
+
+
+/* HUD */
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hud-main-text {
+    text-align: center;
+}
