@@ -1,0 +1,402 @@
+[
+    {
+        "question": "What is the default value of AllowAllAuthorizer",
+        "choice1": "No authorization",
+        "choice2": "Password authorization",
+        "choice3": "SSH authorization",
+        "choice4": "Kerberos authorization",
+        "answer": 1
+    },
+    {
+        "question": "What is the default port for JMX monitoring",
+        "choice1": "7199",
+        "choice2": "7100",
+        "choice3": "7000",
+        "choice4": "7001",
+        "answer": 1
+    },
+    {
+        "question": "What can be used to monitor clock drifts",
+        "choice1": "HTTP",
+        "choice2": "SSH",
+        "choice3": "NTP",
+        "choice4": "JMX",
+        "answer": 3
+    },
+    {
+        "question": "Which directory contains the data files in Cassandra",
+        "choice1": "interface",
+        "choice2": "conf",
+        "choice3": "lib",
+        "choice4": "data",
+        "answer": 4
+    },
+    {
+        "question": "Which of the following data type in CQL 3 stores data as 64 bit floating point",
+        "choice1": "decimal",
+        "choice2": "float",
+        "choice3": "double",
+        "choice4": "int",
+        "answer": 3
+    },
+    {
+        "question": "How many default number of tokens are assigned to a node after installation",
+        "choice1": "128.0",
+        "choice2": "256.0",
+        "choice3": "512.0",
+        "choice4": "1024.0",
+        "answer": 2
+    },
+    {
+        "question": "What is the placement strategy for System keyspace",
+        "choice1": "SimpleStrategy",
+        "choice2": "NetworkTopologyStrategy",
+        "choice3": "LocalStrategy",
+        "choice4": "Depends on partitioner",
+        "answer": 3
+    },
+    {
+        "question": "What is the default port for secured internode communication",
+        "choice1": "7000.0",
+        "choice2": "7001.0",
+        "choice3": "8080.0",
+        "choice4": "443.0",
+        "answer": 2
+    },
+    {
+        "question": "What is the default placement strategy when creating a keyspace in Apache Cassandra for a single data center",
+        "choice1": "SimpleStrategy",
+        "choice2": "NetworkTopologyStrategy",
+        "choice3": "Depends on partitioner",
+        "choice4": "Depends on number of nodes",
+        "answer": 1
+    },
+    {
+        "question": "How many default number of tokens are assigned to a node after installation",
+        "choice1": "128.0",
+        "choice2": "256.0",
+        "choice3": "512.0",
+        "choice4": "1024.0",
+        "answer": 2
+    },
+    {
+        "question": "What is the default value of cross_node_timeout",
+        "choice1": "false",
+        "choice2": "true",
+        "choice3": "0.0",
+        "choice4": "1.0",
+        "answer": 1
+    },
+    {
+        "question": "What is the default port for secured internode communication",
+        "choice1": "7000.0",
+        "choice2": "7001.0",
+        "choice3": "8080.0",
+        "choice4": "443.0",
+        "answer": 2
+    },
+    {
+        "question": "Which option of snapshot in nodetool command, enables naming of the snapshot",
+        "choice1": "-c",
+        "choice2": "-f",
+        "choice3": "-t",
+        "choice4": "-n",
+        "answer": 3
+    },
+    {
+        "question": "What is the default authentication for Cassandra",
+        "choice1": "NoAuthenticator",
+        "choice2": "AllowAllAuthenticator",
+        "choice3": "AllAuthenticator",
+        "choice4": "None of these",
+        "answer": 2
+    },
+    {
+        "question": "What is the default password storing format in password.properties file",
+        "choice1": "MD5 encryption",
+        "choice2": "DES encryption",
+        "choice3": "plaintext",
+        "choice4": "None of these",
+        "answer": 3
+    },
+    {
+        "question": "What does hot spot refers to",
+        "choice1": "Inter-node communication",
+        "choice2": "Processing capacity",
+        "choice3": "Query pattern",
+        "choice4": "Storage capacity",
+        "answer": 3
+    },
+    {
+        "question": "What value can be given to commit_log_sync",
+        "choice1": "batch Only",
+        "choice2": "periodic only",
+        "choice3": "Either periodic or batch",
+        "choice4": "None of these",
+        "answer": 3
+    },
+    {
+        "question": "Which option of snapshot in nodetool command, enables naming of the snapshot",
+        "choice1": "-c",
+        "choice2": "-f",
+        "choice3": "-t",
+        "choice4": "-n",
+        "answer": 3
+    },
+    {
+        "question": "Which directory contains the Cassandra configuration file",
+        "choice1": "interface",
+        "choice2": "conf",
+        "choice3": "bin",
+        "choice4": "lib",
+        "answer": 2
+    },
+    {
+        "question": "What is the placement strategy for System keyspace",
+        "choice1": "SimpleStrategy",
+        "choice2": "NetworkTopologyStrategy",
+        "choice3": "LocalStrategy",
+        "choice4": "Depends on partitioner",
+        "answer": 3
+    },
+    {
+        "question": "Which Cassandra tool is used to show statistics on node",
+        "choice1": "toolnode",
+        "choice2": "nodetool",
+        "choice3": "nodestatistics",
+        "choice4": "statisticsnode",
+        "answer": 2
+    },
+    {
+        "question": "How does Murmur3Partitioner works",
+        "choice1": "Order as per US English value",
+        "choice2": "Fast hash-based partitioner",
+        "choice3": "Order keys as per byte value",
+        "choice4": "None of these",
+        "answer": 2
+    },
+    {
+        "question": "Which is the size of CQL 3 int data type",
+        "choice1": "8-bit",
+        "choice2": "16-bit",
+        "choice3": "32-bit",
+        "choice4": "64-bit",
+        "answer": 3
+    },
+    {
+        "question": "Which type of tree does a node creates after validation compaction is completed if, using virtual nodes",
+        "choice1": "B tree",
+        "choice2": "BST",
+        "choice3": "Merkel",
+        "choice4": "B+ tree",
+        "answer": 3
+    },
+    {
+        "question": "What is the default value for commit log before creating a new file",
+        "choice1": "256 MB",
+        "choice2": "128 MB",
+        "choice3": "64 MB",
+        "choice4": "32 MB",
+        "answer": 4
+    },
+    {
+        "question": "How many concurrent writes are allowed in Cassandra by default",
+        "choice1": "128.0",
+        "choice2": "64.0",
+        "choice3": "32.0",
+        "choice4": "16.0",
+        "answer": 3
+    },
+    {
+        "question": "What is the default port for thrift client",
+        "choice1": "7000.0",
+        "choice2": "7001.0",
+        "choice3": "9000.0",
+        "choice4": "9160.0",
+        "answer": 4
+    },
+    {
+        "question": "How many concurrent writes are allowed in Cassandra by default",
+        "choice1": "128.0",
+        "choice2": "64.0",
+        "choice3": "32.0",
+        "choice4": "16.0",
+        "answer": 3
+    },
+    {
+        "question": "Which is the least verbose logging level in Cassandra",
+        "choice1": "trace",
+        "choice2": "debug",
+        "choice3": "fatal",
+        "choice4": "error",
+        "answer": 1
+    },
+    {
+        "question": "Which Cassandra tool is used to show statistics on node",
+        "choice1": "toolnode",
+        "choice2": "nodetool",
+        "choice3": "nodestatistics",
+        "choice4": "statisticsnode",
+        "answer": 2
+    },
+    {
+        "question": "Which option of nodetool lists usage statistics of thread pool in Cassandra",
+        "choice1": "threadstats",
+        "choice2": "tp",
+        "choice3": "tpstats",
+        "choice4": "threadpoolstats",
+        "answer": 3
+    },
+    {
+        "question": "How many compaction strategies are present for columnfamily",
+        "choice1": "2.0",
+        "choice2": "3.0",
+        "choice3": "4.0",
+        "choice4": "5.0",
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is not an performance measurement tool",
+        "choice1": "cmstat",
+        "choice2": "iostat",
+        "choice3": "dstat",
+        "choice4": "None of these",
+        "answer": 4
+    },
+    {
+        "question": "Which Linux flavor can be used for Cassandra installation",
+        "choice1": "Debian",
+        "choice2": "Red Hat",
+        "choice3": "CentOS",
+        "choice4": "All of these",
+        "answer": 4
+    },
+    {
+        "question": "What is a node in Cassandra",
+        "choice1": "New server added",
+        "choice2": "New hardware added",
+        "choice3": "New Cassandra instance",
+        "choice4": "None of these",
+        "answer": 3
+    },
+    {
+        "question": "What is the default limit of keys after which MemTables are flushed to disk",
+        "choice1": "32.0",
+        "choice2": "64.0",
+        "choice3": "128.0",
+        "choice4": "256.0",
+        "answer": 3
+    },
+    {
+        "question": "How does Murmur3Partitioner works",
+        "choice1": "Order as per US English value",
+        "choice2": "Fast hash-based partitioner",
+        "choice3": "Order keys as per byte value",
+        "choice4": "None of these",
+        "answer": 2
+    },
+    {
+        "question": "What is the essential requirement for using permissions_validity_in_ms",
+        "choice1": "Murmur3Partitioner",
+        "choice2": "Authorizer",
+        "choice3": "AllowAllAuthorizer",
+        "choice4": "CollatingOPP",
+        "answer": 2
+    },
+    {
+        "question": "Where does the largest token repeated in the list, is shown by the ring command in Apache Cassandra",
+        "choice1": "top",
+        "choice2": "bottom",
+        "choice3": "As directed",
+        "choice4": "None of these",
+        "answer": 1
+    },
+    {
+        "question": "Which of the following data type in CQL 3 stores variable-precision decimal",
+        "choice1": "int",
+        "choice2": "decimal",
+        "choice3": "float",
+        "choice4": "double",
+        "answer": 2
+    },
+    {
+        "question": "What can be used to monitor clock drifts",
+        "choice1": "HTTP",
+        "choice2": "SSH",
+        "choice3": "NTP",
+        "choice4": "JMX",
+        "answer": 3
+    },
+    {
+        "question": "What is the essential requirement for using permissions_validity_in_ms",
+        "choice1": "Murmur3Partitioner",
+        "choice2": "Authorizer",
+        "choice3": "AllowAllAuthorizer",
+        "choice4": "CollatingOPP",
+        "answer": 2
+    },
+    {
+        "question": "Which type of tree does a node creates after validation compaction is completed if, using virtual nodes",
+        "choice1": "B tree",
+        "choice2": "BST",
+        "choice3": "Merkel",
+        "choice4": "B+ tree",
+        "answer": 3
+    },
+    {
+        "question": "What does the term 'I' expands to in the term 'ACID'",
+        "choice1": "Isolated",
+        "choice2": "Insulated",
+        "choice3": "Inseparable",
+        "choice4": "Indispensable",
+        "answer": 1
+    },
+    {
+        "question": "Which collection type in Cassandra is an dictionary like object",
+        "choice1": "Set",
+        "choice2": "Heap",
+        "choice3": "Map",
+        "choice4": "List",
+        "answer": 3
+    },
+    {
+        "question": "How many number of maps are available to Cassandra by default",
+        "choice1": "16384.0",
+        "choice2": "32768.0",
+        "choice3": "65535.0",
+        "choice4": "131072.0",
+        "answer": 3
+    },
+    {
+        "question": "How many file does an SSTable is composed of",
+        "choice1": "4.0",
+        "choice2": "5.0",
+        "choice3": "6.0",
+        "choice4": "7.0",
+        "answer": 2
+    },
+    {
+        "question": "What percentage is the default threshold of memory used for flushing of the largest Memtables",
+        "choice1": "50.0",
+        "choice2": "65.0",
+        "choice3": "75.0",
+        "choice4": "85.0",
+        "answer": 3
+    },
+    {
+        "question": "What does iostat monitors",
+        "choice1": "Device or keyboard input",
+        "choice2": "Device or monitor output",
+        "choice3": "Both A or B",
+        "choice4": "Disk read and write",
+        "answer": 4
+    },
+    {
+        "question": "Which cloud platform is not supported by Cassandra",
+        "choice1": "Rackspace",
+        "choice2": "Google Compute Engine",
+        "choice3": "Windows Azure",
+        "choice4": "None of these",
+        "answer": 4
+    }
+]
