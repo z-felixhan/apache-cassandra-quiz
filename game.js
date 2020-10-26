@@ -6,13 +6,14 @@ const progressBarFull = document.getElementById("progressBarFull");
 const scoreText = document.getElementById("score");
 const loader = document.getElementById("loader");
 const game = document.getElementById("game");
+const next = document.getElementById("next");
 
+let firstSelect = true;
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
-
 let questions = [];
 
 fetch("./questions.json")
@@ -35,6 +36,15 @@ startGame = () => {
     getNewQuestion();
     game.classList.remove("hidden");
     loader.classList.add("hidden");
+    next.addEventListener('click', (e) => {
+        getNewQuestion();
+
+        let removeSelections = document.getElementsByClassName("choice-container");
+
+        [].forEach.call(removeSelections, (selection) => {
+            selection.classList.remove("correct", "incorrect");
+        });
+    });
 };
 
 getNewQuestion = () => {
@@ -44,6 +54,7 @@ getNewQuestion = () => {
         //go to the end page
         return window.location.assign('./end.html');
     }
+
     questionCounter++;
 
     questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
@@ -62,8 +73,40 @@ getNewQuestion = () => {
 
     availableQuesions.splice(questionIndex, 1);
     acceptingAnswers = true;
+    firstSelect = true;
 };
 
+choices.forEach((choice) => {
+    choice.addEventListener('click', (e) => {
+        if (!acceptingAnswers) return;
+
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset['number'];
+
+        if(selectedAnswer == currentQuestion.answer) {
+            classToApply = 'correct';
+            acceptingAnswers = false;
+        }
+        else {
+            classToApply = 'incorrect';
+        }
+
+        if(classToApply == 'correct' && firstSelect) {
+            incrementScore(CORRECT_BONUS);
+        }
+
+        selectedChoice.parentElement.classList.add(classToApply);
+
+        firstSelect = false;
+    });
+});
+
+incrementScore = num => {
+    score += num;
+    scoreText.innerText = score;
+}
+
+/*
 choices.forEach((choice) => {
     choice.addEventListener('click', (e) => {
         if (!acceptingAnswers) return;
@@ -86,8 +129,4 @@ choices.forEach((choice) => {
         }, 1000);
     });
 });
-
-incrementScore = num => {
-    score += num;
-    scoreText.innerText = score;
-}
+*/
