@@ -62,3 +62,24 @@
     height: 3.4rem;
     width: 0%;
 }
+
+
+/* LOADER */
+
+#loader {
+    animation: spin 2s linear infinite;
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top: 1.6rem solid #56a5eb;
+    height: 12rem;
+    width: 12rem;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
