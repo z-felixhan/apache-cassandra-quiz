@@ -384,7 +384,7 @@
         "answer": 3
     },
     {
-        "question": "What does iostat monitors",
+        "question": "What does iostat monitor?",
         "choice1": "Device or keyboard input",
         "choice2": "Device or monitor output",
         "choice3": "Both A or B",
